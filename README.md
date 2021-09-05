@@ -1,0 +1,8 @@
+# SpringMVC
+添加web支持
+在pom.xml中导入依赖
+使用数据库是MySQL，建立数据库ssmbuild，表名books，对书籍进行增删改查以及书籍的查询
+先建立实体类获取数据库信息pojo包的books
+实体类通过dao层的bookMapper访问数据库，通过bookMaper.xml的SQL语句进行数据库操作
+创建services层处理相关事务，dao层调用services层处理
+创建contoller实现页面跳转
